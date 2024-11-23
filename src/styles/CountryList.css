@@ -1,0 +1,41 @@
+.country-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .country-card {
+    border: 1px solid #000000;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .country-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .country-flag {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  
+  /* Estilo para el botón de cerrar */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
