@@ -32,7 +32,9 @@ const CountryList = () => {
 
   return (
     <div>
-      <h1>Country List</h1>
+      <h1>Desarrolo Web 2024 - Chiquimulilla, Santa Rosa</h1>
+      <h1>UMG</h1>
+      <h1>Examen de Recuperacion</h1>
       <div className="country-list">
         {countries.map((country) => (
           <CountryCard
